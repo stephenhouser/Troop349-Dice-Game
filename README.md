@@ -49,7 +49,7 @@ In an attempt to make this code a bit flexible, the die faces and number of dice
 
 You can run this notebook interactively with Binder:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/github/stephenhouser/Troop349-Dice-Game.git/master?urlpath=lab/tree/index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stephenhouser/Troop349-Dice-Game/master?filepath=Troop349-Dice-Game-Simulation.ipynb)
 
 # Notes on making your own version
 
