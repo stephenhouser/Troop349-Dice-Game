@@ -43,15 +43,23 @@ To play a longer game, use three (3) or more dice to determine the game winning 
 
 # Game simulation to determine play length
 
-Included in this repository is a Python 3 Jupyter Notebook that will simulate playing the game a number of times and then chart the number of turns needed to reach a win condition. Note that the code only simulates a single player game. 
+Included in this repository is a Python 3 Jupyter Notebook that will simulate playing the game a number of times and then chart the number of turns needed to reach a win condition. Note that the code only simulates a single player game.
 
-In an attempt to make this code a bit flexible, the die faces and number of dice used to set the win point total and rolled for each turn are variables and could be changed. This hs not been tested extensively! Your results may vary.
+The resulting histogram is shown below. Using this simulaton the average game should be somewhere between 7 and 8 turns (for a single player) with 95% of all games being 17 turns or less.
+
+![Game length histogram](Simulation-Histogram-Turns.png)
+
+In an attempt to make this code a bit flexible, the die faces and number of dice used to set the win point total and rolled for each turn are variables and could be changed. This has not been tested extensively! Your results may vary.
 
 You can run this notebook interactively with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stephenhouser/Troop349-Dice-Game/master?filepath=Troop349-Dice-Game-Simulation.ipynb)
 
+NOTE: For local use in a virtual environment use something like `python3 -m venv venv; source venv/bin/activate; pip install -r requirements.txt`
+
 # Notes on making your own version
+
+Included in this repository is [Troop349-Dice-Game.svg](Troop349-Dice-Game.svg) which contains the appropriate designs for laser cutting on a laser cutter. I use the most excellent [K40 Whisperer](https://www.scorchworks.com/K40whisperer/k40whisperer.html) from [@Scorchworks](https://www.scorchworks.com). Feel free to check out my [macOS packaging of K40 Whisperer](https://github.com/stephenhouser/k40-whisperer) if you are a Mac user.
 
 * Not all die-face combinations will work! That is, if you use `2` on all faces, you cannot get any odd numbers! The good news is that you won't have to as your winning point total will always be an even number too.
 
