@@ -53,7 +53,7 @@ In an attempt to make this code a bit flexible, the die faces and number of dice
 
 You can run this notebook interactively with Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stephenhouser/Troop349-Dice-Game/master?filepath=Troop349-Dice-Game-Simulation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stephenhouser/Troop349-Dice-Game/master?filepath=Troop349_Dice_Game_Simulation.ipynb)
 
 NOTE: For local use in a virtual environment use something like `python3 -m venv venv; source venv/bin/activate; pip install -r requirements.txt`
 
