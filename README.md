@@ -41,7 +41,7 @@ Each player rolls their own point total at the start of the game rather than one
 
 To play a longer game, use three (3) or more dice to determine the game winning point total.
 
-# Game simulation to determine play length
+## Game simulation to determine play length
 
 Included in this repository is a Python 3 Jupyter Notebook that will simulate playing the game a number of times and then chart the number of turns needed to reach a win condition. Note that the code only simulates a single player game.
 
@@ -57,7 +57,7 @@ You can run this notebook interactively with Binder:
 
 NOTE: For local use in a virtual environment use something like `python3 -m venv venv; source venv/bin/activate; pip install -r requirements.txt`
 
-# Notes on making your own version
+## Notes on making your own version
 
 Included in this repository is [Troop349-Dice-Game.svg](Troop349-Dice-Game.svg) which contains the appropriate designs for laser cutting on a laser cutter. I use the most excellent [K40 Whisperer](https://www.scorchworks.com/K40whisperer/k40whisperer.html) from [@Scorchworks](https://www.scorchworks.com). Feel free to check out my [macOS packaging of K40 Whisperer](https://github.com/stephenhouser/k40-whisperer) if you are a Mac user.
 
