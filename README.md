@@ -64,3 +64,7 @@ Included in this repository is [Troop349-Dice-Game.svg](Troop349-Dice-Game.svg) 
 * Not all die-face combinations will work! That is, if you use `2` on all faces, you cannot get any odd numbers! The good news is that you won't have to as your winning point total will always be an even number too.
 
 * `349` is prime. While that's cool, it doesn't do anything special for the game. Other than its cool factor.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
